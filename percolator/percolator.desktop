@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Percolator Launcher
+Comment=No comments
+Exec=java -jar -Dprism.forceGPU=true  /headless/files/percolator/percolator-ui.jar
+Terminal=false
