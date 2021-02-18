@@ -17,7 +17,7 @@ Main features:
 ![alt text](https://github.com/nfrik/Percolator/blob/main/img/Connectivity.jpg?raw=true)
 
 
-The software is available as a binary jar container. For convenience we provide a Docker file all necessary dependencies to build Ubuntu VNC server with the Percolator. For more details on tuning additional features of the Ubuntu-xfce-vnc image refer to: https://hub.docker.com/r/consol/ubuntu-xfce-vnc/
+The software is available as a binary jar container. For convenience we provide a Docker file all necessary dependencies to build the Ubuntu VNC server with the Percolator. For more details on tuning additional features of the Ubuntu-xfce-vnc image refer to: https://hub.docker.com/r/consol/ubuntu-xfce-vnc/
 
 This project was supported by NSF grants no. 1748459, 1608847. We want to thank Freescale LLC (NC, USA) for providing components for this software.
 
@@ -31,4 +31,4 @@ Navigate to you web browser and open http://localhost:8888 page:
 
 Once prompted type default password: vncpassword
 
-Percolator can be lounched through the icon on the desktop
+Percolator can be launched through a desktop icon
