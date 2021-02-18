@@ -3,6 +3,8 @@ Percolator is a software tool that can generate random and ordered distributions
 
 In Percolator, the contact point is estimated via Open Dynamic Engine for Java (ODE4j) 3D game engine (tzaeschke/ode4j). The collision coordinate between two objects is first identified via the axis-aligned bounding boxes method (AABB) (Bergen 1997). Since in the ODE4j engine, each object has a virtual bounding box, the intersection of the bounding boxes of one 3D object with another can be simply calculated with a logic comparison test. If a collision is identified as intersecting volumes, it will be further analyzed to locate the contact points' exact coordinates on each object's surface.
 
+![alt text](https://github.com/nfrik/Percolator/blob/main/img/UI-example.jpg?raw=true)
+
 Main features:
 1. Generation of random and ordered distributions of cylindrical and spherical objects in 2D and 3D
 2. Generation of spaghetti objects with various degree of curviness
@@ -12,10 +14,21 @@ Main features:
 6. Grouping objects into a specific configuration and generating distribution from the resulting configuration
 7. Logging and other useful UI tools
 
+![alt text](https://github.com/nfrik/Percolator/blob/main/img/Connectivity.jpg?raw=true)
 
 
+The software is available as a binary jar container. For convenience we provide a Docker file all necessary dependencies to build Ubuntu VNC server with the Percolator. For more details on tuning additional features of the Ubuntu-xfce-vnc image refer to: https://hub.docker.com/r/consol/ubuntu-xfce-vnc/
 
-docker build . -t vnc_percolator
-docker run -it -p 8888:6901 vnc_percolator
+This project was supported by NSF grants no. 1748459, 1608847. We want to thank Freescale LLC (NC, USA) for providing components for this software.
 
-default password: vncpassword
+To build the image:
+```docker build . -t vnc_percolator```
+
+To run the container:
+```docker run -it -p 8888:6901 vnc_percolator```
+
+Navigate to you web browser and open http://localhost:8888 page:
+
+Once prompted type default password: vncpassword
+
+Percolator can be lounched through the icon on the desktop
