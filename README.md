@@ -31,4 +31,9 @@ Navigate to you web browser and open http://localhost:8888 page:
 
 Once prompted type default password: vncpassword
 
-Percolator can be launched through a desktop icon
+Percolator can be launched through a desktop icon.
+
+
+Please cite this software using this DOI: https://doi.org/10.5281/zenodo.4549735
+
+[![DOI](https://zenodo.org/badge/339210670.svg)](https://zenodo.org/badge/latestdoi/339210670)
