@@ -19,7 +19,7 @@ Main features:
 
 The software is available as a binary jar container. For convenience we provide a Docker file all necessary dependencies to build the Ubuntu VNC server with the Percolator. For more details on tuning additional features of the Ubuntu-xfce-vnc image refer to: https://hub.docker.com/r/consol/ubuntu-xfce-vnc/
 
-This project was supported by NSF grants no. 1748459, 1608847. We want to thank Freescale LLC (NC, USA) for providing components for this software.
+This project was partially supported by NSF grants no. 1748459, 1608847. We thank Freescale LLC (NC, USA) for providing components for this software.
 
 To build the image:
 ```docker build . -t vnc_percolator```
